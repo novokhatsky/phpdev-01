@@ -1,0 +1,1 @@
+update mysql.user set plugin = 'mysql_native_password', authentication_string = '' where user = 'root';
